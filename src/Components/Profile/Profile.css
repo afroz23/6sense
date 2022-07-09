@@ -1,0 +1,80 @@
+.profile{
+    width: calc(100vw - 80px);
+    height: 80px;
+    border-bottom:1px solid #E5E5E5;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 0px #E2E2E2, 0px 0px 4px rgba(0, 0, 0, 0.05);
+    background: #ffffff;
+}
+
+.avatar{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+}
+
+.teamSection{
+    margin-left: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.userName,.teamsText{
+    font-size: 18px;
+    color: #000000;
+}
+
+.userName{
+    opacity: 50%;
+    text-transform: uppercase;
+}
+
+.border-between{
+    height: 80px;
+    width: 2px;
+    background-color: #E2E2E2;
+    margin: 0 27px 0 38px;
+}
+
+.profileSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 59px;
+    height: 100%;
+}
+
+.nameSection{
+    margin: 0 24px 0 8px;
+    font-size: 14px;
+}
+
+.notification {
+    color: white;
+    text-decoration: none;
+    padding: 10px 21px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.notificationImage{
+    height: 22px;
+    width: 22px;
+}
+
+.notification .badge {
+    position: absolute;
+    top: -2px;
+    right: 12px;
+    padding: 1px 6px;
+    border-radius: 50%;
+    background: #2995DA;
+    color: white;
+}

@@ -1,0 +1,12 @@
+.parent-component{
+    min-height: 100vh;
+    width: calc(100vw - 80px);
+    background-color: #E5E5E5;
+    margin-left: 80px;
+}
+
+.containerClass{
+    margin: 42px 39px 0 42px;
+    display: flex;
+    justify-content: space-between;
+}

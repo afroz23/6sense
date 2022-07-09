@@ -1,0 +1,73 @@
+.all{
+    width: 72%;
+    min-height: 400px;
+    height: fit-content;
+    background-color: white;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 28px 33px 17.5px 30px;
+}
+
+.teams{
+    display: flex;
+    flex-direction: row;
+    column-gap: 11px;
+    flex-wrap: wrap;
+    margin: 27px;
+}
+
+.activity{
+    width:316px;
+    height: 400px;
+    overflow-y: scroll;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.activityText{
+    margin-left: 29px;
+    color: #343434;
+    font-size: 18px;
+}
+
+.border{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #EFEFEF;
+}
+
+.person{
+    display: flex;
+    margin: 0 30px 0 29px;
+}
+
+.avatar{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+}
+
+.details{
+    margin-left: 9px;
+    font-size: 14px;
+}
+
+.bold{
+    color: #444444;
+}
+
+.time{
+    color: #565656;
+    opacity: 50%;
+}
+ 
+.left-text{
+    text-transform: capitalize;
+}

@@ -1,0 +1,106 @@
+.container{
+    margin-top: 80px;
+    height: 146px;
+    width: calc(100vw - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #ffffff;
+}
+
+.newTeam-container{
+    display: flex;
+    justify-content: space-between;
+    height: 61px;
+    align-items: center;
+}
+
+.left-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 42px;
+}
+
+.teamsText{
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.teamsIcon{
+    height: 34px;
+    width: 34px;
+}
+
+.newTeam{
+    width: 189px;
+    height: 36px;
+    display: flex;
+    margin-right: 38px;
+    background-color: #40D2BF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.create-text{
+    font-size: 14px;
+    margin-left: 12px;
+    color: #ffffff;
+}
+
+.plus{
+    height: 16px;
+    width: 16px;
+}
+
+.tabs{
+    display: flex;
+    margin-left: 62px;
+    column-gap: 48px;
+}
+
+.tabSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.tab{
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.active{
+    color: #0083E3;
+    border-bottom: 3px solid #0083E3;
+}
+
+.search{
+    margin-right: 86px;
+}
+
+.input{
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+}
+
+input::placeholder{
+    font-size: 16px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.searchIcon{
+    margin-right: 5px;
+    height: 11px;
+    width: 11px;
+}
+
+.teamsActivity{
+    background-color: #E5E5E5;
+}

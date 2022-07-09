@@ -1,0 +1,63 @@
+.card{
+    width: 360px;
+    height: 200px;
+    border: 1px solid #E4E7EC;
+    border-radius: 4px;
+    margin: 0 13px 16px 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-child{
+    display: flex;
+    margin: 16px 0 0 16px;
+}
+
+.left{
+    height: 36px;
+    width: 36px;
+}
+
+.right{
+    margin-left: 9px;
+}
+
+.name{
+    color: #444444;
+}
+
+.created_at{
+    color: #565656;
+}
+
+.star{
+    margin-right: 9px;
+}
+
+.description{
+    margin: 16px 18px 15px 15px ;
+}
+
+.border{
+    height: 1px;
+    width: 100%;
+    background-color: #E4E7EC;
+}
+
+.bottom,.conversations,.leads{
+    display: flex;
+    flex-direction: row;    
+}
+
+.conversations,.leads{
+    column-gap: 9px;
+}
+
+.bottom{
+    column-gap: 14px;
+    margin: 20px 0 16px 17px;
+}
